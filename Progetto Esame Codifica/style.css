@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+body {
+  font-family: 'Prata', serif;
+  padding: 0;
+  margin: 0;
+  background-color:  #ffcc99;
+}
+h1 {
+    color: 	#B8860B;
+    font-size: 50px;
+    text-align:center;
+    font-family: 'Dancing Script', cursive;
+}
+h2{
+  margin-bottom: 5%;
+}
+
+a {
+    text-decoration: none;
+}
+#t1{
+  display: none;
+}
+#t2{
+  display: none;
+}
+#ancora {
+  position: fixed;
+  right:20px;
+  bottom:20px;
+  z-index: 2;
+  font-size: 33px;
+  border: none;
+  cursor: pointer;
+  color: black;
+  opacity: 0.4;
+}
+
+#ancora:hover {
+  opacity: 1;
+}
+
+#cartolina{
+  position: relative;
+  text-align: center;
+  align-items: center;
+  display: inline;
+}
+
+#img1, #img2, #img3{
+    height: 50%;
+    width: auto;
+    filter:drop-shadow(8px 8px 10px gray);
+    opacity: 1;
+}
+#img1{
+  float: left;
+  margin-left: 5%;
+}
+#img3{
+  float: right;
+  margin-right: 5%;
+}
+.intro{
+  text-align: center;
+  font-size: 20px;
+}
+#text{
+  margin-top: 5%;
+}
+#altreinfo{
+  text-align:center;
+  color: #993366;
+  font-weight: bold;
+  text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+  padding: 0.5em 1.5em;
+  outline: none;
+  border-radius: 7px;
+  z-index: 2;
+  font-family: 'Prata', serif;
+}
+.tabout{
+  font-size: 25px;
+}
+#postfront_1 , #postfront_2 , #postfront_3{
+  height: 50%;
+  width: auto;
+  margin-bottom: 3%;
+}
+#postretro_1 , #postretro_2, #postretro_3{
+  height: auto;
+  width: auto;
+}
+#desc36,#desc151,#desc137{
+  font-size: 20px;
+}
+#fimgs{
+  display: inline-block;
+  float: left;
+  margin-left: 10%;
+}
+#contents_1,#contents_2,#contents_3{
+  height: auto;
+  width: auto;
+  border: 4px;
+  float: right;
+  margin-right: 10%;
+}
+#postheader_1, #postheader_2, #postheader_3{
+  margin-top: 3%;
+  height:auto;
+  width: 100%;
+}
+#cartoline{
+  text-align: center;
+}
+
+#imgs{
+  display: none;
+  width: 100%;
+  height: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #ffbf80;
+}
+#description{
+  display: none;
+  width: auto;
+  height: auto;
+  background-color: #ffb366;
+  padding-left: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}

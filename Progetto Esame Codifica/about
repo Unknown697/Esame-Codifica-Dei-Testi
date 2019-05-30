@@ -1,0 +1,17 @@
+-Il File main.xml è il file contenente il teicorpus
+-I file contenenti le singole codifiche delle cartoline e le relative immagini sono contenute nelle cartelle omonime (7694-036,7694-137,7694-151)
+-Le regole xslt sono contenute nel file stylesheet.xsl
+-script.js e style.css rappresentano rispettivamente il file javascript e il foglio di stile css associati
+-tei.dtd rappresenta lo schema dtd utilizzato
+-main.html rappresenta l'applicazione delle regole xslt sul file main.xml attraverso xslproc su Linux Mint
+-La validazione è stata effettuata con xmllint su Linux Mint
+-I moduli TEI utilizzati sono i seguenti:
+    core
+    tei
+    header
+    textstructure
+    analysis
+    figures
+    msdescription
+    namesdates
+    transcr

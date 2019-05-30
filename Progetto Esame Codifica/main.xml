@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stylesheet.xsl"?>
+<!DOCTYPE teiCorpus SYSTEM "tei.dtd">
+
+<teiCorpus>
+  <teiHeader xml:id="common">
+    <fileDesc>
+       <titleStmt>
+            <!-- TITOLO NB: non corrisponde completamente alla voce TITOLO della tabella perché si tratta del titolo della edizione digitale -->
+        <title xml:id="maintitle"> Giovannino a Oliva, Edizione Digitale delle Corrispondenze tra il 1916 e il 1917</title>
+
+            <!-- TRASCRITTORI -->
+            <respStmt>
+                <resp>Trascrizione a cura di:</resp>
+                <name xml:id="VP">Vincenzo Pipitone</name>
+                <name xml:id="FC">Fabio Cosentino</name>
+                <name xml:id="AC">Alessio Califano</name>
+            </respStmt>
+
+            <!-- ENTE DI APPARTENENZA -->
+        <respStmt>
+            <resp>Ente di Appartenenza:</resp>
+            <name type="comune" xml:id="SP">Comune della Spezia</name>
+        </respStmt>
+
+      </titleStmt>
+
+      <editionStmt>
+          <edition>Studenti di Codifica di Testi, Corso di Laurea in Informatica Umanistica, <orgName ref="#UNIPI"> Università di Pisa  </orgName>
+               <!-- COMPILAZIONE -->
+            <date when="2019">2019</date>
+          </edition>
+
+            <!-- NOME COMPILATORE -->
+          <respStmt>
+                <resp>Codificato da:</resp>
+                <name ref="#TC">Tommaso Castagneto</name>
+          </respStmt>
+
+            <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+          <respStmt>
+              <resp>Compilato da:</resp>
+              <name xml:id="TC">Tommaso Castagneto</name>
+          </respStmt>
+
+          <respStmt>
+                <resp>Responsabile scientifico:</resp>
+                <name xml:id="GP">Giacomo Paolicchi</name>
+                <name xml:id="ES">Enrica Salvatori</name>
+          </respStmt>
+
+          <respStmt>
+              <resp>Funzionario responsabile:</resp>
+              <name xml:id="ER">E. Ratti</name>
+          </respStmt>
+       </editionStmt>
+
+       <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+
+
+        <sourceDesc>
+
+            <msDesc>
+                <msIdentifier>
+                    <country>Italia</country>
+                    <settlement>La Spezia (SP)</settlement>
+                    <!-- COLLOCAZIONE SPECIFICA -->
+                    <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                </msIdentifier>
+
+
+                <physDesc>
+                    <objectDesc>
+                        <supportDesc>
+                            <support>
+                                <objectType>Cartolina</objectType>
+                                <!-- MATERIALI -->
+                                <material>Carta</material>
+                                <!-- DIMENSIONE -->
+                                <dimensions unit="cm">
+                                    <height>14</height>
+                                    <width>9</width>
+                                </dimensions>
+                            </support>
+                            <condition>Buono</condition>
+                        </supportDesc>
+                    </objectDesc>
+              </physDesc>
+           </msDesc>
+
+           <listOrg>
+                <org xml:id="UNIPI">
+                    <orgName> Università di <settlement> Pisa </settlement> </orgName>
+                    <desc>
+                        L'Università di Pisa (UniPi). Fondata nel 1343 .
+                    </desc>
+                </org>
+            </listOrg>
+
+        </sourceDesc>
+    </fileDesc>
+
+ </teiHeader>
+
+ <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="./7694-036/main.xml"/>
+ <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="./7694-137/main.xml"/>
+ <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="./7694-151/main.xml"/>
+
+
+</teiCorpus>
