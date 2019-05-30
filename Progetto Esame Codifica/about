@@ -3,7 +3,7 @@
 -Le regole xslt sono contenute nel file stylesheet.xsl
 -script.js e style.css rappresentano rispettivamente il file javascript e il foglio di stile css associati
 -tei.dtd rappresenta lo schema dtd utilizzato
--main.html rappresenta l'applicazione delle regole xslt sul file main.xml attraverso xslproc su Linux Mint
+-index.html rappresenta l'applicazione delle regole xslt sul file main.xml attraverso xslproc su Linux Mint
 -La validazione è stata effettuata con xmllint su Linux Mint
 -I moduli TEI utilizzati sono i seguenti:
     core
